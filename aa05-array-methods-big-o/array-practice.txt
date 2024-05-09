@@ -1,0 +1,64 @@
+Time Complexity Analysis of Array Methods:
+
+.push():
+    Time complexity: O(1)
+    Space complexity: O(1)
+    Push adds the item to the end of the array,
+    and once this happens there are no subsequent calls to make.
+
+.pop():
+    Time: O(1)
+    Space: O(1)
+    Like push, except pop removes the item from the end
+    without needing to move or reference other elements
+
+.shift():
+    Time: O(n)
+    Space: O(1)
+    shift removes the first item from the array,
+    but has to move every element up one to fill new space.
+
+.unshift():
+    Time: O(n)
+    Space: O(n)
+    unshift adds an item to the beginning of the array,
+    but also has to shift existing elements by one
+
+.splice()
+    Time:
+    Space:
+
+
+.slice()
+    Time:
+    Space:
+
+
+.indexOf()
+    Time:
+    Space:
+
+
+.map()
+    Time:
+    Space:
+
+
+.filter()
+    Time:
+    Space:
+
+
+.reduce()
+    Time:
+    Space:
+
+
+.reverse()
+    Time:
+    Space:
+    
+
+[...arr]
+    Time:
+    Space:
